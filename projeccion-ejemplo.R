@@ -54,19 +54,6 @@ proy_x_y_2 <-  (  (as.numeric(t(y) %*% x)) / as.numeric( t(x) %*% x )   ) *x
 norm_proy_x_y_2 <- sqrt(t(proy_x_y_2) %*% proy_x_y_2)
 ##################################################################################
 
-#Ejemplo 3 : Caso simple del calculo del vector y=(1,0)' sobre el vector x=(1,0)'
-
-alpha <- 2
-
-y<-matrix(c(0,1), byrow = TRUE, ncol = 1)
-x<-matrix(c(0,1), byrow = TRUE, ncol = 1)
-x <- alpha * x
-
-plot(c(0,2),c(0,2),col="green",main="Ejemplo 3",xlab="Eje X", ylab = "Eje Y")
-arrows(0,0,0,1,col="green")  #vector y
-arrows(0,0,2,0,col="red") # vector x
-arrows(0,0,0,0,col="blue") # projeccion de y sobre x
-
 proy_x_y_3 <-  (  (as.numeric(t(y) %*% x)) / as.numeric( t(x) %*% x )   ) *x
 
 #la norma de proy_x_y_3 es:
