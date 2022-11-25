@@ -5,7 +5,7 @@
 # Ayúdanos con esta iniciativa. Suscríbete a Mathoidea:
 # https://www.youtube.com/channel/UCqlHgSXsUWDiymTzoR8VL2A
 
-#Aqui se prueba la formula de projeccion para tres casos en un espacio bidimensional
+#Aqui se prueba la formula de projeccion para casos en un espacio bidimensional
 
 ##################################################################################
 
