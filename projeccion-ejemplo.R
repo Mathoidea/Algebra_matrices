@@ -54,13 +54,7 @@ proy_x_y_2 <-  (  (as.numeric(t(y) %*% x)) / as.numeric( t(x) %*% x )   ) *x
 norm_proy_x_y_2 <- sqrt(t(proy_x_y_2) %*% proy_x_y_2)
 ##################################################################################
 
-proy_x_y_3 <-  (  (as.numeric(t(y) %*% x)) / as.numeric( t(x) %*% x )   ) *x
 
-#la norma de proy_x_y_3 es:
-
-norm_proy_x_y_3 <- sqrt(t(proy_x_y_3) %*% proy_x_y_3)
-
-##################################################################################
 
 
 
